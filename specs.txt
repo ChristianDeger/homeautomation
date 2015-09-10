@@ -1,0 +1,4 @@
+Intrusion on and Armed off is signaled -> Intrusion off
+Delayed intrusion is triggered and Armed off is signaled -> Intrusion off
+Intrusion is on and Intrusion off is signaled -> Intrusion off
+Delayed intrusion is triggered and normal intrusion is triggered -> Intrusion on
