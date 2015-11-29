@@ -1,12 +1,9 @@
 commandArray = {}
 
-print('1')
-print(devicechanged['KFOB-C-1'])
-print('3')
-print(devicechanged['KFOB-C-3'])
+if (devicechanged['KFOB-C-1'] == 'On') then
+  commandArray['Light Livingroom'] = 'On'
+elseif (devicechanged['KFOB-C-3'] == 'On') then
+  commandArray['Light Livingroom'] = 'On'
+end
 
-
--- if (devicechanged['Armed'] == 'Off') then
---   commandArray['Intrusion'] = 'Off'
---   print('**** Armed off -> Intrusion off')
--- else
+return commandArray
